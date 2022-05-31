@@ -1,0 +1,27 @@
+/* Make sure that padding behaves as expected */
+** {box-sizing:content-box; display: block;
+  width: 450px;
+
+}
+
+/* Container for skill bars */
+.scontainer {
+  
+  margin-left: 60px;
+  width: 450px; /* Full width */
+  background-color: white; /* Grey background */
+ 
+  border:  1px solid black;
+    border-radius: 3px;
+   
+}
+
+.skills {
+ height: 12px;
+  text-align: right; /* Right-align text */
+
+  color: white; /* White text color */
+}
+.front {width: 85%; background-color: #6C55F9;}
+.back {width: 55%; background-color: #6C55F9;}
+.seo {width: 75%; background-color: #6C55F9;}
